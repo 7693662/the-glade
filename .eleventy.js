@@ -97,6 +97,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setLiquidOptions({
     dynamicPartials: true,
   });
+ eleventyConfig.addPassthroughCopy("src/site/custom-style.css");
+};
+
   let markdownLib = markdownIt({
     breaks: true,
     html: true,
