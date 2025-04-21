@@ -1,3 +1,4 @@
+module.exports = function (eleventyConfig) {
 const slugify = require("@sindresorhus/slugify");
 const markdownIt = require("markdown-it");
 const fs = require("fs");
@@ -562,12 +563,14 @@ module.exports = function (eleventyConfig) {
     },
   });
 
-  userEleventySetup(eleventyConfig);
+    userEleventySetup(eleventyConfig);
+
+  eleventyConfig.addPassthroughCopy({ "src/site/style.css": "style.css" });
 
   return {
     dir: {
-      input: "src/site",
-      output: "dist",
+      input: "src",
+      output: "docs",
       data: `_data`,
     },
     templateFormats: ["njk", "md", "11ty.js"],
@@ -575,4 +578,8 @@ module.exports = function (eleventyConfig) {
     markdownTemplateEngine: false,
     passthroughFileCopy: true,
   };
+
 };
+
+  
+
