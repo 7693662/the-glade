@@ -1,4 +1,12 @@
-
+body {
+  background-image: url("P0smhah.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: fadeIn 2s ease-in-out;
+  color: white;
+}
 
 :root {
     --background-primary: rgb(32, 31, 31);
@@ -213,4 +221,8 @@ p > code {
 }
 .callout.is-collapsed .callout-fold .svg-icon {
     transform: rotate(-90deg);
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
