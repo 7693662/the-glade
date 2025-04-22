@@ -236,7 +236,7 @@ p > code {
 
 .invocation-container {
   position: absolute;
-  top: 70%;
+  top: 15%;
   width: 100%;
   text-align: center;
   pointer-events: none;
