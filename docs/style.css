@@ -274,10 +274,10 @@ p > code {
   opacity: 1;
 }
 
-.invocation-container:not(:hover) .invocation-text {
-  opacity: 0;
-  transition: opacity 2s ease 1.5s;
-}
+// .invocation-container:not(:hover) .invocation-text {
+  // opacity: 0;
+ // transition: opacity 2s ease 1.5s;
+// }
 
 .invocation-text {
   all: unset;
