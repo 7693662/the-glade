@@ -243,49 +243,38 @@ p > code {
   z-index: 10;
 }
 
+.invocation-text {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3em;
+  color: red;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  width: 0;
+  transform: rotate(-3deg);
+  letter-spacing: 0.15em;
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
+  transition: opacity 1.5s ease;
+  will-change: opacity;
+}
+
+@keyframes drawText {
+  from { width: 0; opacity: 1; }
+  to { width: 100%; opacity: 1; }
+}
+
+@keyframes fadeOutText {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
 .invocation-container:hover .invocation-text {
   animation: drawText 4s steps(35, end) forwards;
   opacity: 1;
 }
 
 .invocation-container:not(:hover) .invocation-text {
-  animation: fadeOutText 2.5s ease 1.5s forwards;
-}
-
-
-.invocation-text {
-  font-family: 'Great Vibes', cursive;
-  font-size: 3em;
-  color: rgba(255, 255, 255, 0.85);
-  text-align: center;
-  letter-spacing: 0.15em;
-  transform: rotate(-3deg);
-  text-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
   opacity: 0;
-  transition: opacity 1s ease;
-  pointer-events: auto;
+  transition: opacity 2s ease 1.5s;
 }
-
-@keyframes drawText {
-  0% {
-    width: 0;
-    opacity: 0;
-  }
-  100% {
-    width: 100%;
-    opacity: 1;
-  }
-}
-
-@keyframes fadeOutText {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-
-
-
