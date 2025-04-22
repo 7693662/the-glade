@@ -237,7 +237,7 @@ p > code {
 .invocation-container {
   position: absolute;
   top: 7.5%;
-  left: 43.5%;
+  left: 50.5%;
   transform: translateX(-50%) skewX(-2deg);
   width: 50%;
   text-align: center;
