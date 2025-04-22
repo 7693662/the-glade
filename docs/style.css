@@ -234,6 +234,7 @@ p > code {
   /* styles */
 }
 
+/*
 .invocation-container {
   position: absolute;
   top: 7.5%;
@@ -244,6 +245,9 @@ p > code {
   pointer-events: none;
   z-index: 10;
 }
+*/
+
+/*
 
 .invocation-text {
   font-family: 'Great Vibes', cursive;
@@ -259,6 +263,8 @@ p > code {
   transition: opacity 1.5s ease;
   will-change: opacity;
 }
+
+*/
  
   .invocation-curve {
   position: absolute;
@@ -268,10 +274,11 @@ p > code {
   height: 400px;
   pointer-events: none;
   z-index: 10;
-  background: rgba(255, 0, 0, 0.2);
+ /* background: rgba(255, 0, 0, 0.2);*/
 }
   
 
+/*
 @keyframes drawText {
   from { width: 0; opacity: 1; }
   to { width: 100%; opacity: 1; }
@@ -300,5 +307,6 @@ p > code {
   font-size: 3em !important;
   margin-top: 50px !important;
 }
+*/
 
 
