@@ -244,12 +244,12 @@ p > code {
 }
 
 .invocation-container:hover .invocation-text {
-  animation: drawText 3s steps(30, end) forwards;
+  animation: drawText 4s steps(35, end) forwards;
   opacity: 1;
 }
 
 .invocation-container:not(:hover) .invocation-text {
-  animation: fadeOutText 1.5s ease forwards;
+  animation: fadeOutText 2.5s ease 1.5s forwards;
 }
 
 
@@ -258,7 +258,9 @@ p > code {
   font-size: 3em;
   color: rgba(255, 255, 255, 0.85);
   text-align: center;
-  letter-spacing: 1px;
+  letter-spacing: 0.15em;
+  transform: rotate(-3deg);
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
   opacity: 0;
   transition: opacity 1s ease;
   pointer-events: auto;
