@@ -236,7 +236,7 @@ p > code {
 
 .invocation-container {
   position: absolute;
-  top: 11%;
+  top: 7.5%;
   left: 45%;
   transform: translateX(-50%);
   width: 50%;
@@ -254,7 +254,6 @@ p > code {
   white-space: nowrap;
   display: inline-block;
   width: 100%;
-  transform: rotate(-3deg);
   letter-spacing: 0.15em;
   text-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
   transition: opacity 1.5s ease;
