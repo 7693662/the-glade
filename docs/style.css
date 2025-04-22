@@ -236,8 +236,10 @@ p > code {
 
 .invocation-container {
   position: absolute;
-  top: 15%;
-  width: 100%;
+  top: 18%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
   text-align: center;
   pointer-events: none;
   z-index: 10;
@@ -280,11 +282,12 @@ p > code {
 // }
 
 .invocation-text {
-  all: unset;
-  display: block;
-  font-size: 3em;
-  color: red;
-  text-align: center;
-  margin-top: 50px;
+  opacity: 1 !important;
+  width: 100% !important;
+  display: block !important;
+  color: red !important;
+  font-size: 3em !important;
+  margin-top: 50px !important;
 }
+
 
