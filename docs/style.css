@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Freebooter';
+  font-family: 'Freebooter', cursive;
   src: url('fonts/FREEBSCA.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
@@ -242,7 +242,7 @@ p > code {
 
 .invocation-container {
   position: absolute;
-  top: 20%;
+  top: 70%;
   width: 100%;
   text-align: center;
   pointer-events: none;
