@@ -251,7 +251,7 @@ p > code {
   overflow: hidden;
   white-space: nowrap;
   display: inline-block;
-  width: 0;
+  width: 100%;
   transform: rotate(-3deg);
   letter-spacing: 0.15em;
   text-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
