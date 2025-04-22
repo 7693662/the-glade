@@ -237,8 +237,8 @@ p > code {
 .invocation-container {
   position: absolute;
   top: 7.5%;
-  left: 45%;
-  transform: skewX(-2deg);
+  left: 43.5%;
+  transform: translateX(-50%) skewX(-2deg);
   width: 50%;
   text-align: center;
   pointer-events: none;
