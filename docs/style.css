@@ -238,7 +238,7 @@ p > code {
   position: absolute;
   top: 7.5%;
   left: 45%;
-  transform: translateX(-50%);
+  transform: skewX(-2deg);
   width: 50%;
   text-align: center;
   pointer-events: none;
